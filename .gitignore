@@ -1,0 +1,12 @@
+# forbidden
+
+*
+.*
+
+# allowed
+
+!README.md
+!rc_note/
+!rc_note/*
+!.gitignore
+!.git/
