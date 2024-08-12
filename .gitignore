@@ -5,8 +5,14 @@
 
 # allowed
 
-!README.md
-!rc_note/
-!rc_note/*
 !.gitignore
 !.git/
+# git setting
+!README.md
+# README for repo
+!rc_note/
+!rc_note/*
+!rc[0-8]
+# structure of repo
+!*.md
+# main file of the repo
