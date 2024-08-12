@@ -41,3 +41,7 @@ The content in this section connects the `set` we have learned in high school wi
     AF --> AA
     AG --> AA
 ```
+
+## Induction and Recursion
+
+Many things in this world are not chaotic; rather, there exist some hidden rules. Induction and Recursion employ these rules to find some properties.
