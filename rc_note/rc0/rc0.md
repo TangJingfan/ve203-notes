@@ -71,3 +71,32 @@ Many things in this world are not chaotic; rather, there exist some hidden rules
 ## Relation, Function and Order
 
 These are important topics in this course. We are discussing interesting relations between numbers, functions and exploring order of things.
+
+```mermaid
+    graph
+    A(["Relation"])
+    B(["Function"])
+    C(["Domain and Codomain"])
+    D(["Partial Function"])
+    E(["Operation"])
+    F(["Injection and Surjection"])
+    G(["Properties of Relation"])
+    H(["Equivalence Class"])
+    I(["Partition"])
+    J(["Quotient Set"])
+    K(["Monoid Homomorphism"])
+    A --> B
+    B --> C
+    A --> D
+    A --> E
+    B --> F
+    A --> G
+    G --> H
+    G --> I
+    I --> J
+    H --> J
+    J --> K
+```
+
+## Numbers and Equinumerosity
+
