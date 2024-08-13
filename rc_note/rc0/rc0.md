@@ -100,3 +100,18 @@ These are important topics in this course. We are discussing interesting relatio
 
 ## Numbers and Equinumerosity
 
+We will explore how people find new numbers.
+
+```mermaid
+    graph
+    A(["Expansion"])
+    B(["Equinumerosity"])
+    C(["Cantor's Theorem"])
+    D(["Dominance"])
+    E(["Cantor-Schröder-Bernstein Theorem"])
+    A --> B
+    B --> C
+    B --> D
+    B --> E
+    D --> E
+```
