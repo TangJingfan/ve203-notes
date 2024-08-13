@@ -44,7 +44,7 @@ The content in this section connects the `set` we have learned in high school wi
 
 ## Induction and Recursion
 
-Many things in this world are not chaotic; rather, there exist some hidden rules. `Induction and Recursion` employ these rules to find some properties.
+Many things in this world are not chaotic; rather, there exist some hidden rules. Induction and Recursion employ these rules to find some properties.
 
 ```mermaid
     graph
@@ -70,7 +70,7 @@ Many things in this world are not chaotic; rather, there exist some hidden rules
 
 ## Relation, Function and Order
 
-These are important topics in this course. We are discussing interesting `relations` between numbers, functions and exploring order of things.
+These are important topics in this course. We are discussing interesting relations between numbers, functions and exploring order of things.
 
 ```mermaid
     graph
@@ -100,7 +100,7 @@ These are important topics in this course. We are discussing interesting `relati
 
 ## Numbers and Equinumerosity
 
-We will explore how people find new `numbers`.
+We will explore how people find new numbers.
 
 ```mermaid
     graph
