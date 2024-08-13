@@ -1,6 +1,6 @@
 # VE203 rc0
 
-Again, welcome to VE203. This is one of my favourate course at Joint Institute. I hope we can share the same feeling at the end of semester. In rc0, I will lead to browse all topics covered in this course and give you some tips on how to grasp the essence of this course.
+Again, welcome to VE203. This is one of my favourate courses at Joint Institute. I hope we can share the same feeling at the end of semester. In rc0, I will lead to browse all topics covered in this course and give you some tips on how to grasp the essence of this course.
 
 ## Basic Set Theory and Logic
 
@@ -54,6 +54,8 @@ Many things in this world are not chaotic; rather, there exist some hidden rules
     D(["Structural Induction"])
     E(["Mathcmatical String"])
     F(["Proof"])
+    G(["Monoid"])
+    H(["WOP"])
     A ---> B
     A ---> D
     C --> D
@@ -62,4 +64,10 @@ Many things in this world are not chaotic; rather, there exist some hidden rules
     A --> F
     B --> F
     D --> F
+    G --> E
+    H --> F
 ```
+
+## Relation, Function and Order
+
+These are important topics in this course. We are discussing interesting relations between numbers, functions and exploring order of things.
