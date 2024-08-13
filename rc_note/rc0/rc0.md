@@ -45,3 +45,21 @@ The content in this section connects the `set` we have learned in high school wi
 ## Induction and Recursion
 
 Many things in this world are not chaotic; rather, there exist some hidden rules. Induction and Recursion employ these rules to find some properties.
+
+```mermaid
+    graph
+    A(["Induction"])
+    B(["Complete Induction"])
+    C(["Recursive Definition"])
+    D(["Structural Induction"])
+    E(["Mathcmatical String"])
+    F(["Proof"])
+    A ---> B
+    A ---> D
+    C --> D
+    C --> E
+    E --> D
+    A --> F
+    B --> F
+    D --> F
+```
