@@ -161,3 +161,37 @@ Partial order is a special topic here. It will be discussed after mid-term exam.
     AE --> AG
     AF --> AH
 ```
+
+## Counting
+
+This is the most interesting part of discrete mathematics. We have learned power series in first-year math course. However, here we will use this method to solve some counting problem. A graph below shows details. I have to admit there are so many things but in fact each topic corresponds to one particular problem.
+
+```mermaid
+    graph
+    A(["Formal Power Series"])
+    B(["Linear Recurrence"])
+    C(["Formal Power Series Operation"])
+    D(["Inverse"])
+    E(["Binomial Theorem"])
+    F(["Multinomial Theorem"])
+    G(["Counting Method"])
+    H(["Twelvefold Way"])
+    I(["Inclusion-Exclusion Principle"])
+    J(["Derangement"])
+    K(["Counting Surjections"])
+    L(["Asymptotic Notations"])
+    M(["Master Method"])
+    A --> B
+    A --> C
+    C --> D
+    E --> A
+    F --> A
+    E --> G
+    F --> G
+    A --> G
+    G --> H
+    I --> G
+    G --> J
+    G --> K
+    L --> M
+```
