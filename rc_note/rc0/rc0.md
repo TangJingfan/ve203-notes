@@ -195,3 +195,36 @@ This is the most interesting part of discrete mathematics. We have learned power
     G --> K
     L --> M
 ```
+
+## Group
+
+One of the interesting part of Discrete Mathematics is algebra structure. Algebra structure well organizes similar things so that we can find a template to simplify them. From my point of view, this is the most difficult part of this course. A graph below shows the content.
+
+```mermaid
+    graph
+    A(["Definition"])
+    B(["Basic Theorem"])
+    C(["Subgroup"])
+    D(["Cyclic Group"])
+    E(["Order"])
+    F(["Theorem"])
+    G(["Symmetric Group"])
+    H(["Cycle Notation"])
+    I(["Permutation"])
+    J(["Alternating Group"])
+    K(["Homomorphism"])
+    L(["Cosets"])
+    A --> B
+    A --> C
+    A --> D
+    D --> E
+    D --> F
+    E --> F
+    A --> G
+    G --> H
+    G --> I
+    H --> I
+    H --> J
+    A --> K
+    
+```
