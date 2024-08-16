@@ -1,10 +1,12 @@
 # VE203 rc0
 
-Again, welcome to VE203. This is one of my favourate courses at Joint Institute. I hope we can share the same feeling at the end of semester. In rc0, I will lead to browse all topics covered in this course and give you some tips on how to grasp the essence of this course.
+Again, welcome to VE203. This is one of my favourate courses at Joint Institute. I hope we can share the same feeling at the end of semester. 
+
+In rc0, I will lead to browse all topics covered in this course and give you some tips on how to grasp the essence of this course. VE203 is interesting, however, as its name indicates, is discrete. I hope these graphs can help you have a glance at the course in the beginning of the semester.
 
 ## Basic Set Theory and Logic
 
-The content in this section connects the `set` we have learned in high school with more interesting properties. A graph is shown below.
+The content in this section connects the `set` we have learned in high school with more interesting properties. This is fundamental in many field, including computer science. There are many concepts and they are related. A graph is shown below.
 
 ```mermaid
     graph
