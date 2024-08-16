@@ -46,7 +46,7 @@ The content in this section connects the `set` we have learned in high school wi
 
 ## Induction and Recursion
 
-Many things in this world are not chaotic; rather, there exist some hidden rules. Induction and Recursion employ these rules to find some properties.
+Many things in this world are not chaotic; rather, there exist some hidden rules. Induction and Recursion employ these rules to find some properties. Induction is useful to learn new things. For instance, we use induction to verify the correctness of an algorithm. A graph below shows what we will learn.
 
 ```mermaid
     graph
@@ -72,7 +72,7 @@ Many things in this world are not chaotic; rather, there exist some hidden rules
 
 ## Relation, Function and Order
 
-These are important topics in this course. We are discussing interesting relations between numbers, functions and exploring order of things.
+These are important topics in this course. We are discussing interesting relations between numbers, functions and exploring order of things. Relation is important for algorithm.
 
 ```mermaid
     graph
@@ -87,26 +87,28 @@ These are important topics in this course. We are discussing interesting relatio
     I(["Partition"])
     J(["Quotient Set"])
     K(["Monoid Homomorphism"])
+    L(["Special Topic: Partial Order"])
     A --> B
     B --> C
-    A --> D
+    A ----> D
     A --> E
     B --> F
-    A --> G
+    A -----> G
     G --> H
     G --> I
     I --> J
     H --> J
     J --> K
+    A --> L
 ```
 
 ## Numbers and Equinumerosity
 
-We will explore how people find new numbers.
+We will explore how people find new numbers. Equinumerosity in some way shows relationship between two sets or fields. With this, we can explore more about a set.
 
 ```mermaid
     graph
-    A(["Expansion"])
+    A(["Number Expansion"])
     B(["Equinumerosity"])
     C(["Cantor's Theorem"])
     D(["Dominance"])
@@ -116,4 +118,46 @@ We will explore how people find new numbers.
     B --> D
     B --> E
     D --> E
+```
+## Pigeonhole Principle
+
+This is not a new friend. Most of us are already familiar with him. With the principle, we can easily do some proof. We won't dive deep into it, and graph below shows the content.
+
+```mermaid
+    graph 
+    A(["Finite Set"])
+    B(["Pigeonhole Principle(both versions)"])
+    C(["Cardinality of a Set"])
+    D(["Applications"])
+    E(["Erdős–Szekeres Theorem"])
+    A --> B
+    A --> C
+    B --> C
+    B --> D
+    D --> E
+```
+
+## Partial Order
+
+
+Partial order is a special topic here. It will be discussed after mid-term exam. It reveals a special but fundamental relation between things. A graph below shows what we will learn.
+
+```mermaid
+    graph
+    AAA(["Partial Order"])
+    AA(["Coset"])
+    AB(["Hasse Diagram"])
+    AC(["Elements"])
+    AD(["Comparability"])
+    AE(["Chain"])
+    AF(["Antichain"])
+    AG(["Mirsky’s Theorem"])
+    AH(["Dilworth’s Theorem"])
+    AAA --> AA --> AB --> AC
+    AB --> AD
+    AC --> AD
+    AC --> AE
+    AC --> AF
+    AE --> AG
+    AF --> AH
 ```
