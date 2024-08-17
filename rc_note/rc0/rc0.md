@@ -214,6 +214,7 @@ One of the interesting part of Discrete Mathematics is algebra structure. Algebr
     J(["Alternating Group"])
     K(["Homomorphism"])
     L(["Cosets"])
+    M(["Isomorphism"])
     A --> B
     A --> C
     A --> D
@@ -226,5 +227,7 @@ One of the interesting part of Discrete Mathematics is algebra structure. Algebr
     H --> I
     H --> J
     A --> K
-    
+    H --> L
+    K --> L
+    A ----> M
 ```
