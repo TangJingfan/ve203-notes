@@ -213,6 +213,10 @@ One of the interesting part of Discrete Mathematics is algebra structure. Algebr
     K(["Homomorphism"])
     L(["Cosets"])
     M(["Isomorphism"])
+    N(["Counting Formula"])
+    O(["Lagrange’s Theorem"])
+    P(["Conjugate"])
+    Q(["Normal Subgroup"])
     A --> B
     A --> C
     A --> D
@@ -227,7 +231,8 @@ One of the interesting part of Discrete Mathematics is algebra structure. Algebr
     A --> K
     H --> L
     K --> L
-    A ----> M
+    A ----> M --> N --> O
+    A --> P --> Q
 ```
 
 **These are everything we should learn in this semester. In the first half of the semester, we will cover content before partial order. This part includes a lot of abstract concepts. The way to grasp them is to think more and give more examples by yourselves.**
