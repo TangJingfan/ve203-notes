@@ -1,8 +1,6 @@
 # VE203 rc0
 
-Again, welcome to VE203. This is one of my favourate courses at Joint Institute. I hope we can share the same feeling at the end of semester. 
-
-In rc0, I will lead to browse all topics covered in this course and give you some tips on how to grasp the essence of this course. VE203 is interesting, however, as its name indicates, is discrete. I hope these graphs can help you have a glance at the course in the beginning of the semester.
+> In rc0, I will lead to browse all topics covered in this course and give you some tips on how to grasp the essence of this course. VE203 is interesting, however, as its name indicates, is discrete. I hope these graphs can help you have a glance at the course in the beginning of the semester.
 
 ## Basic Set Theory and Logic
 
@@ -231,3 +229,5 @@ One of the interesting part of Discrete Mathematics is algebra structure. Algebr
     K --> L
     A ----> M
 ```
+
+**These are everything we should learn in this semester. In the first half of the semester, we will cover content before partial order. This part includes a lot of abstract concepts. The way to grasp them is to think more and give more examples by yourselves.**
