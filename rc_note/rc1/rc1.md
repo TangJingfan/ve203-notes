@@ -36,4 +36,4 @@ Above are easy concepts. All you need is to recite. Here comes the first importa
 
 ## Set operation
 
-There are four **common** operations: union, interesction, difference, symmetric difference.
+There are **four** common operations: union, interesction, difference, symmetric difference.
