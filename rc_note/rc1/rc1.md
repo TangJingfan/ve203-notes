@@ -25,7 +25,7 @@ How many elements are there in a set; this is always an interesting question. He
 
 ## Cardinality
 
-Definition: The **size** of a set A is called its cardinality, denoted by $|A|$, #A, or $card\,A$.
+Definition: The **size** of a set A is called its cardinality, denoted by $|A|$, $\#A$, or $card\,A$.
 
 - $|A| \in \mathbb{N} $ if A is a finite set;
 - $|A| = \infty$ otherwise.
