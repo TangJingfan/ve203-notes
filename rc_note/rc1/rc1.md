@@ -89,3 +89,16 @@ Here comes a question, how can we define (a,b)?
 In order to make (a,b) unique, we have such definition that **$(a,b) = \{ \{a\}, \{a, b\}\}$**
 
 **Theorem: $(x, y) = (a, b)$ iff $x = a \  \text{and} \ y = b$.**
+
+Definition of **n-tuple** is also important. We will cover it in exercise.
+
+---
+
+Something interesting but unfortunately we won't discuss about it much.
+
+## Graph and Digraph
+
+Nothing necessary to mention in regular rc class. You only need to recite the definition of vertice, edge, source function and target function.
+
+---
+
