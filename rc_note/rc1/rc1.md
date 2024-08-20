@@ -102,3 +102,4 @@ Nothing necessary to mention in regular rc class. You only need to recite the de
 
 ---
 
+Proposition develops based on set theory. They are closely connected.
