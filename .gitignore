@@ -12,6 +12,7 @@
 # README for repo
 !RC_note/
 !RC_note/*
+!RC0.5
 !RC[0-8]
 # structure of repo
 !*.md
