@@ -4,7 +4,9 @@
 
 ## Proposition
 
-Definition: A proposition or statement is a declarative sentence that is either true or false, but not both.
+Basic and foundamental concept in this chapter. 
+
+**Definition**: A proposition or statement is a declarative sentence that is either true or false, but not both.
 
 As a result, the combination of quantifier and predicate forms a proposition.
 
@@ -26,12 +28,17 @@ $ ( \ \ \ ) > \neg > \land >  \lor > \ \to \ > \ \leftrightarrow $
 
 You don't have to master them, and you may not meet them in exams. But we have to mention them.
 
-### Tautology
+**Tautology**: all cases lead to 1.
 
-Definition: all cases leads to 1.
+**Contradiciton**: all cases lead to 0.
+
+**Equivalence**: $p$ and $q$ are equivalent if $p \leftrightarrow q$ is a tautology. Denoted by $p \Leftrightarrow q$.
+
+**Formal Implication**: We say that $p$ formally implies $q$ if $p \to q$ is a tautology, denoted by
+$p \Rightarrow q$.
+
+We use tautology equivalence (as shown in slides) to simplify and further to prove some unapparent equivalence.
 
 Eg. $ p \to q \Leftrightarrow \neg q \to \neg p \Leftrightarrow \neg p \lor q$
-
-We use tautology equivalence to simplify and further to prove some unapparent equivalence.
 
 ## Truth Tree
