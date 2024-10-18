@@ -57,3 +57,39 @@ Here follows a question: How to prove a monoid?
 
 Again! How to check?
 **Only Step**: Follow the rules!!!!
+
+### String
+
+**Definition**: The set \( \Sigma^* \) of *strings* over the alphabet \( \Sigma \) is defined recursively by
+
+- \( \varepsilon \in \Sigma^* \), where \( \varepsilon \) is the empty string containing no symbols.
+- If \( a \in \Sigma \) and \( x \in \Sigma^* \), then \( ax \in \Sigma^* \), where \( ax := (a, x) \in \Sigma \times \Sigma^* \) is an ordered pair.
+
+Note that \( \emptyset^* = \{\varepsilon\} \).
+
+### String Operation
+
+We can do a lot of interesting operation on string, including concatenation and reversal.
+
+#### Concatentation
+
+**Definition**: Let \( \Sigma \) be a set of symbols and \( \Sigma^* \) the set of strings over \( \Sigma \). We can define the concatenation of two strings, denoted by \( \cdot : \Sigma^* \times \Sigma^* \to \Sigma^* \), recursively as follows.
+
+- If \( z \in \Sigma^* \), then \( \varepsilon \cdot z := z \), where \( \varepsilon \) is the empty string.
+- If \( w, z \in \Sigma^* \) and \( w = ax \), then \( w \cdot z = ax \cdot z := a(x \cdot z) \).
+
+Note: we can put **char** in the left handside of a **string** without any operator, like $\alpha x$. $\alpha$ is a character while $x$ is a string. However, if we want to concatentate two string, we have to use operator.
+
+#### Length
+
+**Definition**: The length of a string, \( \ell : \Sigma^* \to \mathbb{N}, w \mapsto \ell(w) \), can be recursively defined as:
+
+- \( \ell(\varepsilon) = 0 \).
+- \( \ell(ax) = 1 + \ell(x) \) if \( a \in \Sigma \) and \( x \in \Sigma^* \).
+
+#### Reversal
+
+**Definition**: We define the reversal of a string \( (\cdot)^R : \Sigma^* \to \Sigma^*, w \mapsto w^R \in \Sigma^* \) recursively by:
+
+- \( \varepsilon^R = \varepsilon \)
+- \( (ax)^R = x^R \cdot a\varepsilon \) for \( ax = (a, x) \in \Sigma \times \Sigma^* \).
