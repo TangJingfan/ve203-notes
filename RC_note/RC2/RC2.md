@@ -102,4 +102,57 @@ We finish induction part here. In conclusion, this part is not abstract. As long
 
 ### Construction of Number Field
 
-This part is interesting. We expand number field from natural number to ultimately to real number. 
+This part is interesting. We expand number field from natural number to ultimately to real number. This process is not very important so that we will not cover it in recitation class.
+
+### Equinumerosity
+
+**Definition**: A set \( A \) is equinumerous to a set \( B \) (written \( A \approx B \)) if there is a bijection from \( A \) to \( B \).
+
+**Theorem**: For any sets \( A \), \( B \), and \( C \):  
+- \( \vdash A \approx A \).  
+- \( A \approx B \vdash B \approx A \).  
+- \( (A \approx B \land B \approx C) \vdash A \approx C \).
+
+While you may not directly face problems proving that one set is equinumerous to another, it's still important to review some proofs in your homework and slides.
+
+Some example you need to remember:
+- $\N \approx \Z$
+- $\N \times \N \approx \N$
+- $\mathbb{Q} \approx \N$
+
+These examples all demonstrate a graphical way of thinking. You should keep that in mind.
+
+### Cantor's Theorem
+
+The proof of this theorem is much more important than theorem itself.
+
+#### First Part
+
+We want to prove $\R \not \approx \N$
+
+![alt text](diagonal.png)
+
+**Note**: This is diagonal proof. You may meet problem that asks you to apply this kind of idea to other cases.
+
+#### Second Part
+
+We want to prove $\text{For every set } A, A \not \approx P(A)$
+
+![alt text](contra.png)
+
+**Note**: This way to form contradiction is important.
+
+### Dominate
+
+**Definition** : A set \( A \) is dominated by a set \( B \) (written \( A \preceq B \)) if there is an injection from \( A \) to \( B \).
+
+### Countable Sets
+
+**Definition**: A set \( A \) is countable if \( A \preceq \mathbb{N} \). Otherwise, it is called uncountable.
+
+### Cantor-Schröder-Bernstein Theorem
+
+For sets $A$, $B$, and $C$,
+- Reflexivity: $\vdash$ $A$ $\preceq$ $A$.
+- Transitivity: $(A \preceq B) \land (B \preceq C) \vdash A \preceq C$.
+- Antisymmetry: $(A \preceq B) \land (B \preceq A) \vdash A \approx B$.
