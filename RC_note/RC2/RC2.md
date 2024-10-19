@@ -93,3 +93,13 @@ Note: we can put **char** in the left handside of a **string** without any opera
 
 - \( \varepsilon^R = \varepsilon \)
 - \( (ax)^R = x^R \cdot a\varepsilon \) for \( ax = (a, x) \in \Sigma \times \Sigma^* \).
+
+We finish induction part here. In conclusion, this part is not abstract. As long as you follow the **basic structure** and apply the **rules** you have learned in class, you can solve almost all problems.
+
+---
+
+## Numbers and Equinumerosity
+
+### Construction of Number Field
+
+This part is interesting. We expand number field from natural number to ultimately to real number. 
