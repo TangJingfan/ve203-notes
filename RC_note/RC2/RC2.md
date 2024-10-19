@@ -10,7 +10,7 @@ $(1) \ \text{base case: P(0) is correct}$
 
 Then, things get more complicated (for natural number, number is getting bigger; string may get longer), so we have **inductive case**.
 
-$(2) \ \text{inductive case: } \forall \ n \in \N, (\text{P(n)} \to \text{P(n+1)})$
+$(2) \ \text{inductive case: } \forall \ n \in \mathbb{N}, (\text{P(n)} \to \text{P(n+1)})$
 
 What's important that in **inductive case**, $\text{P(n)}$ is the **Inductive Hypothesis**.
 
@@ -116,9 +116,9 @@ This part is interesting. We expand number field from natural number to ultimate
 While you may not directly face problems proving that one set is equinumerous to another, it's still important to review some proofs in your homework and slides.
 
 Some example you need to remember:
-- $\N \approx \Z$
-- $\N \times \N \approx \N$
-- $\mathbb{Q} \approx \N$
+- $\mathbb{N} \approx \Z$
+- $\mathbb{N} \times \mathbb{N} \approx \mathbb{N}$
+- $\mathbb{Q} \approx \mathbb{N}$
 
 These examples all demonstrate a graphical way of thinking. You should keep that in mind.
 
@@ -128,7 +128,7 @@ The proof of this theorem is much more important than theorem itself.
 
 #### First Part
 
-We want to prove $\R \not \approx \N$
+We want to prove $\R \not \approx \mathbb{N}$
 
 ![alt text](diagonal.png)
 
