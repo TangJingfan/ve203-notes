@@ -116,7 +116,7 @@ This part is interesting. We expand number field from natural number to ultimate
 While you may not directly face problems proving that one set is equinumerous to another, it's still important to review some proofs in your homework and slides.
 
 Some example you need to remember:
-- $\mathbb{N} \approx \Z$
+- $\mathbb{N} \approx \mathbb{Z}$
 - $\mathbb{N} \times \mathbb{N} \approx \mathbb{N}$
 - $\mathbb{Q} \approx \mathbb{N}$
 
@@ -128,7 +128,7 @@ The proof of this theorem is much more important than theorem itself.
 
 #### First Part
 
-We want to prove $\R \not \approx \mathbb{N}$
+We want to prove $\mathbb{R} \not \approx \mathbb{N}$
 
 ![alt text](diagonal.png)
 

@@ -14,7 +14,7 @@
 !RC_note/*
 !RC0.5
 !RC[0-8]
-!*.png
 # structure of repo
 !*.md
+!*.png
 # main file of the repo
