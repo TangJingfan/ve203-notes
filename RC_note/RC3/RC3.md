@@ -165,3 +165,9 @@ Given \( f : A \to B \), \( g : B \to C \), \( A \neq \emptyset \), then:
 - If \( g \circ f \) is surjective, then \( g \) is surjective.
 
 Note: Injection and surjection may not be tested, but you still need to remember some properties.
+
+### Special Properties of Relation
+
+![alt text](relation_properties.png)
+
+**Note: they are really important. Please remember them well!**
