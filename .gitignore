@@ -17,4 +17,5 @@
 # structure of repo
 !*.md
 !*.png
+!*.html
 # main file of the repo
