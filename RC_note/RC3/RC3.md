@@ -343,3 +343,17 @@ E.g. $P = \{ (0,0),(1,1),(2,2),(0,2),(1,2) \}$. Please draw Hasse Diagram for th
 ![alt text](special_element.png)
 
 **Note: Minimal and Maximal elements are for a part of the poset; Minimum and Maximum is for the entire poset.**
+
+With the idea of comparability, we can draw comparability graph and incomparability graph.
+
+### Special Structure
+
+![alt text](chain_antichain.png)
+
+**Lemma**: Given a chain $C$ and an anti-chain $A$ of a poset, $|A \bigcap C| \leq 1$
+
+The idea of maximal and maximum can also be applied to chain and anti-chain.
+
+![alt text](chain_maximal.png)
+
+**Note: here maximal is also a "local" concept. We focus more on the elements rather than absolute length.**
