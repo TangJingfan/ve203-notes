@@ -109,7 +109,7 @@ If \( A = B \), we say that \( R \) is a relation on \( A \).
 
 Note: Since R is a set, we often write R = $\{(a,b), ...\}$
 
-E.g. R is a relation on $[2]$, R = $\{(0,0),(1,1),(2,2),(3,3)\}$. This means $0$R$0$, $1$R$1$, $2$R$2$, $3$R$3$.
+E.g. R is a relation on $[2]$, R = $\{(1,1),(2,2),(3,3)\}$. This means $1$R$1$, $2$R$2$, $3$R$3$.
 
 ### Operations on Relations/Functions
 
@@ -168,6 +168,139 @@ Note: Injection and surjection may not be tested, but you still need to remember
 
 ### Special Properties of Relation
 
-![alt text](relation_properties.png)
+![Alt text](relation_properties.png)
 
 **Note: they are really important. Please remember them well!**
+
+### Special Relation
+
+With these properties, we can define some special relation.
+
+![Alt text](important_relation.png)
+
+**Please remember them well!**
+
+### Equivalence Class
+
+We then focus on a special kind of relation: equivalence relation.
+
+**Definition**: Given an equivalence relation \( R \) on \( A \), the equivalence class containing \( x \) is the set
+
+\[
+[x]_R := \{ t \in A \mid x R t \}
+\]
+
+**Theorem**: Given an equivalence relation \( R \) on \( A \), then for \( x, y \in A \):
+
+\[
+[x]_R = [y]_R \iff x R y
+\]
+
+### Partition
+
+**Definition**: A partition $\Pi$ of a set \( A \) is a set of nonempty subsets of \( A \) that is disjoint and exhaustive, i.e.,
+
+1. \( (\forall a, b \in \Pi ) \) (if \( a \neq b \) \( \to \) \( a \cap b = \emptyset \));
+2. \( \bigcup \Pi = A \).
+
+**Theorem**: Given an equivalence relation \( R \) on \( A \), the set 
+
+\[
+\{ [x]_R \mid x \in A \}
+\]
+
+of all equivalence classes is a partition of \( A \).
+
+### Quotient Set
+
+**Definition**： Given an equivalence relation \( R \) on \( A \), the quotient set is given by
+
+\[
+A/R := \{ [x]_R \mid x \in A \}
+\]
+
+---
+
+## Numbers and Equinumerosity
+
+### Equinumerosity
+
+**Definition**: A set \( A \) is equinumerous to a set \( B \) (written \( A \approx B \)) if there is a bijection from \( A \) to \( B \).
+
+**Theorem**: For any sets \( A \), \( B \), and \( C \):  
+- \( \vdash A \approx A \).  
+- \( A \approx B \vdash B \approx A \).  
+- \( (A \approx B \land B \approx C) \vdash A \approx C \).
+
+**While you may not directly face problems proving that one set is equinumerous to another, it's still important to review some proofs in your homework and slides.**
+
+Some example you need to remember:
+- $\mathbb{N} \approx \mathbb{Z}$
+- $\mathbb{N} \times \mathbb{N} \approx \mathbb{N}$
+- $\mathbb{Q} \approx \mathbb{N}$
+
+### Cantor's Theorem
+
+The proof of this theorem is much more important than theorem itself.
+
+#### First Part
+
+We want to prove $\mathbb{R} \not \approx \mathbb{N}$
+
+![alt text](diagonal.png)
+
+**Note: This is diagonal proof. You may meet problem that asks you to apply this kind of idea to other cases.**
+
+#### Second Part
+
+We want to prove $\text{For every set } A, A \not \approx P(A)$
+
+![alt text](contra.png)
+
+**Note: This way to form contradiction is important.**
+
+### Dominate
+
+**Definition** : A set \( A \) is dominated by a set \( B \) (written \( A \preceq B \)) if there is an injection from \( A \) to \( B \).
+
+### Countable Sets
+
+**Definition**: A set \( A \) is countable if \( A \preceq \mathbb{N} \). Otherwise, it is called uncountable.
+
+### Cantor-Schröder-Bernstein Theorem
+
+For sets $A$, $B$, and $C$,
+- Reflexivity: $\vdash$ $A$ $\preceq$ $A$.
+- Transitivity: $(A \preceq B) \land (B \preceq C) \vdash A \preceq C$.
+- Antisymmetry: $(A \preceq B) \land (B \preceq A) \vdash A \approx B$.
+
+---
+
+## Finite Sets and Pigeonhole Principle
+
+First, please remember the definition of natural number set.
+
+$[n] = \{1,2,3,...,n\}$
+
+### Finite Set
+
+A set $A$ is finite if it is equinumerous to $[n]$ for some n. A set is infinite if it is not finite.
+
+### Pigeonhole Principle
+
+**Definition**: No set of the form $[n]$ is equinumerous to a proper subset of itself, where $n \in \mathbb{N}$.
+
+**Note: this expression may seem abstract. If so, you can remember the example that putting 4 apples on 3 desks. Then there is at least one desk with 2 apples on it.**
+
+Another version sometimes may seem more useful.
+
+**Definition**: Let $r,s \in N \backslash
+ \{ 0 \} $, if a set containing at least $rs + 1$ elements is partitioned into $r$ subsets, then some subsets contains at least $s + 1$ elements.
+
+### Erds–Szekeres Theorem
+
+**Definition**: Let $A = (a_1, ..., a_n)$ be a sequence of n dierent real numbers. If $n \geq sr + 1$ then either $A$ has an increasing subsequence of $s + 1$ terms or a decreasing subsequence of $r + 1$ terms (or both).
+
+### Patience Sort
+
+E.g. $(4,8,6,10,5,7,2,3)$
