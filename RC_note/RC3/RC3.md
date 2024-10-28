@@ -299,8 +299,47 @@ Another version sometimes may seem more useful.
 
 ### Erds–Szekeres Theorem
 
-**Definition**: Let $A = (a_1, ..., a_n)$ be a sequence of n dierent real numbers. If $n \geq sr + 1$ then either $A$ has an increasing subsequence of $s + 1$ terms or a decreasing subsequence of $r + 1$ terms (or both).
+**Definition**: Let $A = (a_1, ..., a_n)$ be a sequence of n different real numbers. If $n \geq sr + 1$ then either $A$ has an increasing subsequence of $s + 1$ terms or a decreasing subsequence of $r + 1$ terms (or both).
+
 
 ### Patience Sort
 
 E.g. $(4,8,6,10,5,7,2,3)$
+
+---
+
+## Partial Order
+
+I have to admit that there are so many abstract concepts. You should go over slides carefully.
+
+### Convention
+
+We often call an ordered pair of a set and a partial order operator as poset.
+
+E.g. $(\mathbb{N}, \gt)$ is a poset
+
+### Covers
+
+**Definition**: Let \( P \) be an ordered set. Then \( y \in P \) is called a cover of \( x \in P \) if \( x < y \) and for all \( z \in P \), 
+
+\[
+x \leq z \leq y \implies z \in \{ x, y \}.
+\]
+
+We also say that \( y \) covers \( x \), or \( x \) is covered by \( y \). Such \( x \) and \( y \) are called adjacent.
+
+### Hasse Diagram
+
+There are some basic rules.
+
+- Edges are the cover pairs $(x, y)$ with $x$ covered by $y$;
+- Edges are drawn such that $x$ is below $y$;
+- Edges are monotone vertically.
+
+E.g. $P = \{ (0,0),(1,1),(2,2),(0,2),(1,2) \}$. Please draw Hasse Diagram for this partial order.
+
+### Special Element
+
+![alt text](special_element.png)
+
+**Note: Minimal and Maximal elements are for a part of the poset; Minimum and Maximum is for the entire poset.**
