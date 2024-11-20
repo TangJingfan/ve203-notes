@@ -174,4 +174,72 @@ Let \( k \geq n \). The number of surjections \( f : [k] \to [n] \) is given by
 S_{k,n} = \sum_{i=0}^{n-1} (-1)^i \binom{n}{i} (n-i)^k.
 \]
 
+---
+
 ## Asymptotic Notation
+
+- Big O
+
+A function \( g(n) \) is an asymptotic upper bound for \( f(n) \), denoted by
+
+\[
+f(n) = O(g(n))
+\]
+
+if there exist positive constants \( c \) and \( n_0 \) such that
+
+\[
+0 \leq f(n) \leq c g(n) \quad \text{for all } n \geq n_0,
+\]
+
+i.e.,
+
+\[
+\limsup_{n \to \infty} \frac{f(n)}{g(n)} < \infty.
+\]
+
+- Omega
+
+A function \( g(n) \) is an asymptotic lower bound for \( f(n) \), denoted by
+
+\[
+f(n) = \Omega(g(n))
+\]
+
+if there exist positive constants \( c \) and \( n_0 \) such that
+
+\[
+0 \leq c g(n) \leq f(n) \quad \text{for all } n \geq n_0,
+\]
+
+i.e.,
+
+\[
+\liminf_{n \to \infty} \frac{f(n)}{g(n)} > 0.
+\]
+
+- Theta
+
+A function \( g(n) \) is an asymptotic tight bound for \( f(n) \), denoted by
+
+\[
+f(n) = \Theta(g(n))
+\]
+
+if there exist constants \( c_1 \), \( c_2 \), and \( n_0 \) such that
+
+\[
+0 \leq c_1 g(n) \leq f(n) \leq c_2 g(n) \quad \text{for all } n \geq n_0.
+\]
+
+---
+
+## Master Theorem
+
+If \( T(n) = aT\left(\frac{n}{b}\right) + f(n) \) (for constants \( a \geq 1, b > 1 \)), then:
+
+1. \( T(n) = \Theta(n^{\log_b a}) \) if \( f(n) = O(n^{\log_b a - \epsilon}) \) for some constant \( \epsilon > 0 \).
+2. \( T(n) = \Theta(n^{\log_b a} \lg n) \) if \( f(n) = \Theta(n^{\log_b a}) \).
+3. \( T(n) = \Theta(f(n)) \), if \( f(n) = \Omega(n^{\log_b a + \epsilon}) \) for some constant \( \epsilon > 0 \),  
+   and if \( af\left(\frac{n}{b}\right) \leq cf(n) \) for some constant \( c < 1 \) and all sufficiently large \( n \)  
+   (regularity condition).
