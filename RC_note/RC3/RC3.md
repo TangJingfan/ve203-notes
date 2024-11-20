@@ -357,3 +357,14 @@ The idea of maximal and maximum can also be applied to chain and anti-chain.
 ![alt text](chain_maximal.png)
 
 **Note: here maximal is also a "local" concept. We focus more on the elements rather than absolute length.**
+
+This is interesting that by pigeonhole principle,
+- If P can be partitioned into t anti-chains, then the height of P is at most t.
+- If P can be partitioned into s chains, then the width of P is at most s.
+
+### Dilworth's Theorem
+
+A poset of width $w$ can be partitioned into $w$ chains.
+
+## Reference
+- **ve203 slides. 24SP. Runze Cai.**
