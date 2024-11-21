@@ -124,13 +124,23 @@ Note that if \(m \in \mathbb{N}\), then
 
 **You should remember them well.**
 
+### Multinominal
+
+![alt text](multinomial.jpg)
+
 ### Catalan Number 
 
 \(C_n = \binom{2n}{n} \cdot \frac{1}{n + 1}\)
 
-### How to Calculate
+### How to Calculate Catalan Number
 
 See Segner’s recurrence relation.
+
+### Tewlvefold Problem
+
+Kind of important. You'd better remember them.
+
+![alt text](twelvefold.jpg)
 
 ---
 
