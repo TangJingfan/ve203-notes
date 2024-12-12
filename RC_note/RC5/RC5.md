@@ -59,7 +59,7 @@ There are infinitely many primes.
 
 I will lead you to prove.
 
-## Lemma
+### Lemma
 
 Given \( p \in \mathbb{P} \) (a prime number) and \( n \in \mathbb{N} \), if \( p \mid (n^2 + 1) \), then:
 
