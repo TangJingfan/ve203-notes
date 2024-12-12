@@ -129,7 +129,8 @@ e.g
 
 ![alt text](group.png)
 
-- What is a subgroup?
+- What is a subgroup? 
+    - A subgroup is a subset of a group that is itself a group under the same operation as the original group.
 
 - What is a cyclic group?
 
